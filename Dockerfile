@@ -13,5 +13,7 @@ RUN apt-get update && apt-get install -y \
 # Change to your working directory
 WORKDIR /usr/local/bin
 
+# rerun
+
 # Set the entrypoint command
 CMD ["run_index.sh"]
